@@ -35,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-.modal-close, .checkbox-list, .checkbox-text, .site__list, .contacts, .contacts__link, .about__item__link, .work__img__text, .team__social__link, .clients__link, .footer__social__link, .footer__rss__input::placeholder {
+.modal__close, .checkbox-list, .checkbox-text, .site__list, .contacts, .contacts__link, .about__item__link, .work__img__text, .team__social__link, .clients__link, .footer__social__link, .footer__rss__input::placeholder {
   display: flex;
   align-items: center;
 }
@@ -87,7 +87,7 @@ body {
   padding: 40px;
 }
 
-.modal-close {
+.modal__close {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -100,7 +100,7 @@ body {
   cursor: pointer;
 }
 
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -110,7 +110,7 @@ body {
   margin-bottom: 12px;
 }
 
-.form-input {
+.modal__form__input {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -121,15 +121,15 @@ body {
   padding-left: 42px;
 }
 
-.form-input:focus {
+.modal__form__input:focus {
   border-color: var(--accent-color);
 }
 
-.form-input:focus + .input-icon {
+.modal__form__input:focus + .modal__input__icon {
   fill: var(--accent-color);
 }
 
-.input-text {
+.modal__input__text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -163,12 +163,12 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field {
+.modal__form__field {
   position: relative;
   margin-bottom: 10px;
 }
 
-.input-icon {
+.modal__input__icon {
   position: absolute;
   top: 50%;
   left: 12px;
