@@ -43,7 +43,7 @@
     color: var(--text-color);
     margin-bottom: 12px;
 }
-.modal__form__input {
+.form__input {
     width: 448px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -55,12 +55,12 @@
     &:focus {
         border-color: var(--accent-color);
     }
-    &:focus + .modal__input__icon {
+    &:focus + .form__icon {
         fill: var(--accent-color);
     }
 }
 
-.modal__input__text {
+.form__text {
     @include font (400, 12px, 1.16, 0.01em);
     color: var(--lilte-text-color);
     margin-bottom: 4px;
@@ -86,33 +86,33 @@
 }
 }
 
-.modal__form__field {
+.form {
     position: relative;
     margin-bottom: 10px;
 }
-.modal__input__icon {
+.form__icon {
     position: absolute;
     top: 50%;
     left: 12px;
 }
 
-.button-submit {
+.button__submit {
     @include button;
     &:hover,
     &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 }
-.flex-submit {
+.modal__button {
     text-align: center;
 }
 
-.radio-link {
+.chek__link {
     color: var(--accent-color);
     text-decoration: underline;
 }
 
-.checkbox-list {
+.checkbox {
     justify-content: center;
     @extend %align-list;
     margin-bottom: 30px;
@@ -132,14 +132,13 @@
     cursor: pointer;
     &:checked + .chek{
         background-color: var(--accent-color);  
-        background-image: url(../images/icon.svg#icon-galka); 
+        background-image: url(../images/icons.svg#icon-galka); 
         border: none;
     }
 }
-.icon-galka {
+.checkbox-icon {
     position: absolute;
     left: 2px;
-
 }
 .chek {
     width: 15px;

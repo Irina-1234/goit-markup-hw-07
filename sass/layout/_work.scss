@@ -1,23 +1,23 @@
-.work {
+.section__work {
     padding-top: 0;
 }
 
-.work__title {
+.section__title {
     @include font (700, 36px, 1.16, 0.03em);
     text-align: center;
     color: var(--text-color);
     margin-bottom: 50px;
 }
-.work__list {
+.work{
     display: flex;
 }
 .work__item:not(:last-child) {
     margin-right: 30px;
 }
-.work__item__wrap {
+.work__wrap {
     position: relative;
 }
-.work__img__text {
+.work__text {
     position: absolute;
     left: 0;
     bottom: 0;

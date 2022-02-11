@@ -1,17 +1,15 @@
- 
- .about {
-    &__list {
-        display: flex;
-    }
-    &__item:not(:last-child) {
+.about {
+    display: flex;
+}
+.about__item:not(:last-child) {
         margin-right: 30px;
-    }
-    &__item__title {
+}
+.about__title {
         @include font (700, 14px, 1.14, 0.03em);
         text-transform: uppercase;
         color: var(--text-color);
-    }
-    &__item__link {
+}
+.about__box {
         width: 270px;
         height: 120px;
         background: #F5F4FA;
@@ -19,10 +17,9 @@
         margin-bottom: 30px;
         @extend %align-list;
         justify-content: center;
-    }
-    &__item__text {
+}
+.about__text {
         @include font (null, 14px, 1.71, 0.03em);
         color: var(--lilte-text-color);
         margin-top: 10px;
-    }
 }

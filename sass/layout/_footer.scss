@@ -8,7 +8,7 @@ footer {
     align-items: baseline;
 }
 
-.logo-color-footer {
+.logo__color-footer {
     color: var(--bt-color);
 }
 .container__footer {
@@ -33,7 +33,7 @@ footer {
         color: var(--accent-color);
     }   
 }
-.footer__social__text {
+.footer__social__title {
     @include font (700, 14px, 1.14, 0.03em);
     color: var(--bt-color);
     text-transform: uppercase;
@@ -69,7 +69,7 @@ footer {
 .footer__rss {
     margin-left: 93px;
 }
-.input-text-rss {
+.rss__text {
     display: block;
     font-weight: bold;
     @include font (null, 14px, 1.14, 0.03em);
@@ -77,7 +77,7 @@ footer {
     margin-bottom: 20px;
     color: var(--bt-color);
 }
-.footer__rss__input {
+.rss__input {
     min-width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -94,6 +94,6 @@ footer {
     }
 }
 
-.footer__rss__icon {
+.rss__icon {
     right: 200px;
 }
